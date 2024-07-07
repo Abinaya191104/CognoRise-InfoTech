@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Countdown Timer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Countdown Timer</h1>
+    <label for="birthday">Enter Date:</label>
+    <input type="date" id="birthday" min="2023-01-01">
+    <button onclick="startTimer()">Start Countdown</button>
+    <div id="timer"></div>
+    <div>
+        <p class="counter" id="days">00</p>
+        <p class="counter" id="hours">00</p>
+        <p class="counter" id="minutes">00</p>
+        <p class="counter" id="seconds">00</p>
+    </div>
+    <div>
+        <p class="timerlabel">Days Hours Minutes Seconds</p>
+        
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
